@@ -82,6 +82,6 @@ func getData(w http.ResponseWriter, cryptoSymbol string) {
 
 func main() {
 	http.HandleFunc("/price", getPriceHandler)
-	fmt.Println("Server is listening on port 8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println("Server is listening on port 8088")
+	log.Fatal(http.ListenAndServe(":8088", nil))
 }
