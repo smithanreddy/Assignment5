@@ -18,7 +18,7 @@ Make sure you have Go installed on your machine. You can download it from [https
    git clone https://github.com/smithanreddy/Assignment5
 
 
-Open your web browser and navigate to http://localhost:8080/price to get cryptocurrency prices in CAD.
+Open your web browser and navigate to http://localhost:8088/price to get cryptocurrency prices in CAD.
 
 API Endpoints
 GET /price
@@ -28,6 +28,7 @@ Example Response:
 
 json
 {
-  "crypto": "Bitcoin",
-  "priceCad": "66645.00"
+"crypto":"Bitcoin","priceCad":"49631.16"
+"crypto":"Ethereum","priceCad":"2747.08"
+"crypto":"Tether","priceCad":"1.33"
 }
